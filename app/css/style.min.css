@@ -1,18 +1,1 @@
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
-
-body {
-  text-align: center;
-  background-color: #ccc; }
-
-.box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}.box{display:-webkit-box;display:-ms-flexbox;display:flex}
