@@ -114,12 +114,12 @@
 
 // end search
 // start products
-.products {
+.product {
     padding: 110px 0px;
     background-color: $grey;
 }
 
-.products__inner-btn {
+.product__inner-btn {
     text-align: center;
     margin-bottom: 60px;
     button {
@@ -138,7 +138,7 @@
     }
 }
 
-.products__inner-box {
+.product__inner-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -264,3 +264,77 @@
 }
 
 // end product-slider
+// start advantages
+.advatnages {
+    background-color: $bg;
+    padding: 110px 0;
+}
+
+.advatnages__tiltle {
+    color: #fff;
+}
+
+.advatnages__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advatnages__item {
+    max-width: 370px;
+    text-align: center;
+    padding: 0 15px;
+    &:hover {
+        .advatnages__item-images {
+            background-color: $green;
+        }
+        .advatnages__item-title {
+            color: $green;
+        }
+        .advatnages__item-images {
+            g {
+                fill: #fff;
+            }
+        }
+    }
+    &-images {
+        width: 114px;
+        height: 114px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 30px;
+        transition: all 0.5s;
+    }
+    &-title {
+        margin-bottom: 25px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 24px;
+        transition: all 0.5s;
+    }
+    &-text {
+        font-size: 15px;
+    }
+}
+
+.icosvg-1 {
+    svg {
+        width: 50px;
+    }
+}
+
+.icosvg-2 {
+    svg {
+        width: 70px;
+    }
+}
+
+.icosvg-3 {
+    svg {
+        width: 86px;
+    }
+}
+
+// and advantages
